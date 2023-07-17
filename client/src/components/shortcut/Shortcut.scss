@@ -1,0 +1,17 @@
+.shortcut{
+    margin:10px 20px;
+    display: flex;
+    flex-direction:column;
+    width:100px;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    .shortcut-name{
+        margin:0;
+    }
+}
+
+.shortcut:hover, .shortcut:focus{
+    background-color: rgba(255, 255, 255, 0.5);
+}
