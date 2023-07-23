@@ -1,0 +1,20 @@
+.login{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(85, 170, 170);
+    height:100dvh;
+
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    form{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap:10px;
+    }
+}

@@ -15,7 +15,7 @@ export const HomeScreen = () => {
         <div className="home-screen">
             <div className="shortcuts">
                 <Shortcut icon={<Appwiz1503 variant="32x32_4"/>} shortcutName={"Recycling Bin"} onClick={handleShortcutClick}/>
-                <Shortcut icon={<Inetcpl1313 variant="32x32_4"/>} shortcutName={"Internet Explorer"} />
+                <Shortcut icon={<Inetcpl1313 variant="32x32_4"/>} shortcutName={"Internet Explorer"} onClick={handleShortcutClick}/>
             </div>
             <TaskBar list={<List>
             <List.Item icon={<WindowsExplorer variant="32x32_4" />} >
